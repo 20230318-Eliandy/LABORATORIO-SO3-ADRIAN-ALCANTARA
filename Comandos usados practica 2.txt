@@ -1,23 +1,2 @@
-Comandos usados practica 2
-
-
-nmcli con show
-
-dhcp:
-
-sudo nmcli con mod "nombre_de_tu_conexion" ipv4.method auto
-sudo nmcli con up "nombre_de_tu_conexion"
-
-estatica:
-
-sudo nmcli con mod "nombre_de_tu_conexion" ipv4.addresses 192.168.1.100/24
-sudo nmcli con mod "nombre_de_tu_conexion" ipv4.gateway 192.168.1.1
-sudo nmcli con mod "nombre_de_tu_conexion" ipv4.method manual
-sudo nmcli con up "nombre_de_tu_conexion"
-
-sudo nmcli con mod "nombre_de_tu_conexion" ipv4.dns "8.8.8.8 8.8.4.4"
-sudo nmcli con up "nombre_de_tu_conexion"
-
-
-
+A
 
