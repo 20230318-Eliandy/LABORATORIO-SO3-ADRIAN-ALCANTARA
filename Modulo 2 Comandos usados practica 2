@@ -1,0 +1,7 @@
+sudo crontab -e
+0 23 * * * apt update && apt upgrade -y
+0 3 * * 0 /sbin/shutdown -r now
+ls /tmp
+echo "rm -rf /tmp/*" | at now + 1 minute
+sudo apt install at
+echo "rm -rf /tmp/*" | at now + 1 minute
