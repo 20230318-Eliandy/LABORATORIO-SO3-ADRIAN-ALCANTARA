@@ -1,0 +1,10 @@
+sudo adduser eliandy
+sudo usermod -ag sudo eliandy
+sudo groupadd guest
+sudo adduser invitado
+sudo usermod -ag guest invitado
+sudo deluser invitado
+sudo deluser --remove-home invitado
+sudo deluser --remove-home eliandy
+sudo deluser --remove-home Adrian
+sudo groupdel guest
