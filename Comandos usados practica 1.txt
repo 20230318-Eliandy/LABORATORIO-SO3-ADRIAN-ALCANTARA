@@ -1,3 +1,0 @@
-Comandos usados practica 1
-
-date
