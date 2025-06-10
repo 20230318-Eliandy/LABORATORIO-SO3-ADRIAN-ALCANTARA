@@ -1,9 +1,14 @@
 mkdir materia
 cd materia
+cd ..
 vi estudiante.txt
 chmod 700 estudiante.txt
-chmod 070 estudiante.txt
-cd ..
+cd
 mkdir materia2
 cp materia/estudiante.txt materia2/
+cd materia2
+ls -l estudiante.txt
+cd
+rm -r materia2
 rm -r materia
+cd materia2
