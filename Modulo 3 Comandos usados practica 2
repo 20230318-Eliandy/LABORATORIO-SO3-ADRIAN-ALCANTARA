@@ -1,0 +1,7 @@
+nano backup_home.sh
+chmod +x backup_home.sh
+./backup_home.sh
+
+nano guardar_ifconfig.sh
+chmod +x guardar_ifconfig.sh
+./guardar_ifconfig.sh
